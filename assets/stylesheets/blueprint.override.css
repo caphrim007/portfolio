@@ -1,0 +1,13 @@
+thead th {
+	background: none;
+}
+ul, ol {
+	margin:0;
+}
+
+div.project {
+	box-shadow: 5px 5px 5px #ccc;
+}
+div.project div.scanner-block-body {
+	border-radius: 5px;
+}
