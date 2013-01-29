@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".savory-thumb, .deepsee-thumb, .greasemonkey-thumb, .resolver-thumb, .nessus-thumb").fancybox({
+	$(".savory-thumb, .deepsee-thumb, .greasemonkey-thumb, .resolver-thumb, .nessquik-thumb").fancybox({
 		prevEffect: 'none',
 		nextEffect: 'none',
 		helpers	: {
