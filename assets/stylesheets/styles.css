@@ -1,11 +1,9 @@
-body {
-        background: url('/portfolio/assets/images/background-v2.png') repeat-x scroll 0 0 #fff !important;
-}
 #header {
-        background-color: #fafafa;
         height: 75px;
         margin: 0 auto;
-        border-bottom: medium none;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #ddd;
+        padding: 20px 0 15px;
 }
 .pagehead {
         background: url('/portfolio/assets/images/background-white.png') no-repeat scroll 0 0 transparent;
@@ -23,7 +21,7 @@ body {
 }
 #footer {
         text-align: center;
-        background: none repeat scroll 0 0 #f1f1f1;
+        background-color: #f1f1f1;
         border-top: 1px solid #ddd;
         margin: 25px 0 0;
         padding: 20px 0 15px;
@@ -101,19 +99,21 @@ body {
         margin: 1em 0;
 }
 h1.scanner-block-header {
-        -moz-border-radius: 2px 2px 0 0;
-        -webkit-border-radius: 2px 2px 0 0;
-        background: -moz-linear-gradient(center top, #829aa8, #405a6a) repeat scroll 0 0 transparent;
-        background: -webkit-gradient(linear, center top, center bottom, from(#829aa8), to(#405a6a)) repeat scroll 0 0 transparent;
-        border-color: #677c89 #677c89 #6b808d;
-        border-style: solid;
-        border-width: 1px;
+	background-color: #6b808d;
         color: #fff;
         font-size: 16px;
         font-weight: bold;
         margin: 0;
         padding: 8px 18px;
-        text-shadow: 0 -1px 0 rgba(0,0,0,0.698);
+}
+.project {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.project h1 {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
 }
 div.scanner-block-body {
         background-color: #e9f1f4;
@@ -126,4 +126,7 @@ div.scanner-block-body {
 }
 .feature-desc ul {
 	padding-left: 50px;
+}
+code {
+	background: transparent !important;
 }
