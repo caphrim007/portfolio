@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".savory-thumb, .deepsee-thumb, .greasemonkey-thumb, .resolver-thumb").fancybox({
+	$(".savory-thumb, .deepsee-thumb, .greasemonkey-thumb, .resolver-thumb, .nessus-thumb").fancybox({
 		prevEffect: 'none',
 		nextEffect: 'none',
 		helpers	: {
@@ -18,5 +18,8 @@ $(document).ready(function() {
 	});
 	$('.resolver-trig').click(function(){
 		$('.resolver-thumb').first().trigger('click');
+	});
+	$('.nessquik-trig').click(function(){
+		$('.nessquik-thumb').first().trigger('click');
 	});
 });
