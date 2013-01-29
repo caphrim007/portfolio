@@ -3,10 +3,6 @@ $(document).ready(function() {
 		prevEffect: 'none',
 		nextEffect: 'none',
 		helpers	: {
-			thumbs	: {
-				width	: 50,
-				height	: 50
-			},
 			title: { type: 'inside' }
 		}
 	});
