@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	items = [
 		'savory', 'deepsee', 'greasemonkey', 'resolver', 'nessquik', 'fsf',
-		'portscanmenow'
+		'portscanmenow', 'splunk', 'puppet', 'nagios', 'git'
 	];
 
 	$.each(items, function(idx, value) {
