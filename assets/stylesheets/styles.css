@@ -129,3 +129,10 @@ code {
 .project img {
 	cursor: pointer;
 }
+.work-links a:link,
+.work-links a:visited,
+.work-links a:active,
+.work-links a:hover {
+    color: #fff;
+    text-decoration: none;
+}

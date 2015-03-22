@@ -2,336 +2,109 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <!--#include file="header.html"-->
-        <body>
-            <div id='header' class='append-bottom'>
+    <body>
+        <div id='header' class='append-bottom'>
         	<div class='container clearfix'>
-                    <span class='large logo'>
-                        <a href='/portfolio'>Tim's Portfolio</a>
-                    </span>
-		</div>
-            </div>
+                <span class='large logo'>
+                    <a href='/portfolio'>Tim's Portfolio</a>
+                </span>
+		    </div>
+        </div>
 		
         <div class='container clearfix'>
-
-
-<div class='pagehead span-24'>
-        <div class='wrapper content'>
-                <h1>Welcome</h1>
-<div class='left' style='width: 60%;'>
-		<p>
-            The links below will allow you to click
-            through screenshots of the various tools and activities that I
-            have been involved in over the years.
-            </p>
-		<p>
-			If you have any questions, I'd be happy to answer them. My email
-			address is available below.
-		</p>
-		<p>
-		Thanks,
-		</p>
-		<p style='padding-bottom: 20px'>
-		Tim Rupp<br>
-		<span class='hypertext'>caphrim007@gmail.com</span>
-		</p>
-</div>
-<div class='right' style='width: 40%; text-align: right;'>
-	<a href='cow.html'><img src='assets/images/IMG_2942_fixed.png' style='width: 202px; height: 220px;'></a>
-</div>
-
-<dl class="tabs prepend-top clear">
-  <dd class="active"><a href="#software">Software</a></dd>
-  <dd><a href="#devops">DevOps</a></dd>
-<!--  <dd><a href="#infrastructure">Infrastructure</a></dd>-->
-</dl>
-
-<ul class="tabs-content">
-  <li class="active" id="softwareTab">
-        <div class='span-23 project'>
-            <h1 class='scanner-block-header'>fsf</h1>
-            <div class='scanner-block-body span-23 last'>
-                <div class='span-23 prepend-top append-bottom'>
-                    <div class='span-5' style='text-align: center;'>
-                        <img class='fsf-trig' src='portfolio/software/fsf/images/fsf_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
+            <div class='pagehead span-24'>
+                <div class='wrapper content'>
+                    <h1>Welcome</h1>
+                    <div class='left' style='width: 60%;'>
+                		<p>
+                            The links below will allow you to click
+                            through screenshots of the various tools and activities that I
+                            have been involved in over the years.
+                        </p>
+                		<p>
+                			If you have any questions, I'd be happy to answer them. My email
+                			address is available below.
+                		</p>
+                		<p>
+                    		Thanks,
+                		</p>
+                		<p style='padding-bottom: 20px'>
+                    		Tim Rupp<br>
+                    		<span class='hypertext'>caphrim007@gmail.com</span>
+                		</p>
                     </div>
-                    <div class='span-18 last'>
-                        <div>
-                            <code>fsf</code> is an advanced security scanner farm and batch system 
-                        </div>
-                        <div class='prepend-top'>
-                            <span class='hypertext fsf-trig'>Have a look</a>
-                        </div>
+                    <div class='right' style='width: 40%; text-align: right;'>
+                    	<a href='cow.html'><img src='/portfolio/assets/images/IMG_2942_fixed.png' style='width: 202px; height: 220px;'></a>
                     </div>
-                </div>
+
+                    <dl class="tabs prepend-top clear">
+                        <dd class="active"><a href="#software">Software</a></dd>
+                        <dd><a href="#devops">DevOps</a></dd>
+                        <dd><a href="#infrastructure">Infrastructure</a></dd>
+                    </dl>
+
+                    <ul class="tabs-content">
+                        <li class="active" id="softwareTab">
+                            <!--#include file="portfolio/software/fsf/index.html"-->
+                            <!--#include file="portfolio/software/savory/index.html"-->
+                            <!--#include file="portfolio/software/portscanmenow/index.html"-->
+                            <!--#include file="portfolio/software/nessquik/index.html"-->
+                            <!--#include file="portfolio/software/solera-splunk/index.html"-->
+                            <!--#include file="portfolio/software/solera-gm/index.html"-->
+                            <!--#include file="portfolio/software/resolver/index.html"-->
+                        </li>
+                        <li id="devopsTab">
+                            <!--#include file="portfolio/devops/splunk/index.html"-->
+                            <!--#include file="portfolio/devops/puppet/index.html"-->
+                            <!--#include file="portfolio/devops/nagios/index.html"-->
+                            <!--#include file="portfolio/devops/git/index.html"-->
+                        </li>
+                        <li id="infrastructureTab">
+                            <!--#include file="portfolio/infrastructure/openstack/index.html"-->
+                        </li>
+                    </ul>
+            	</div>
             </div>
         </div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>savory</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='savory-trig' src='portfolio/software/savory/images/savory_fresh_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>savory</code> is a malware URL aggregator and intelligence system.
-						</div>
-						<div class='prepend-top'>
-							<span class='hypertext savory-trig'>Have a look</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-        <div class='span-23 prepend-top project'>
-            <h1 class='scanner-block-header'>portscanmenow</h1>
-            <div class='scanner-block-body span-23 last'>
-                <div class='span-23 prepend-top append-bottom'>
-                    <div class='span-5' style='text-align: center;'>
-                        <img class='portscanmenow-trig' src='portfolio/software/portscanmenow/images/portscanmenow_index_full.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-                    </div>
-                    <div class='span-18 last'>
-                        <div>
-                            <code>portscanmenow</code> is a web frontend for the Nmap port scanner. It focuses on simplicity.
-                        </div>
-                        <div class='prepend-top'>
-                            <span class='hypertext portscanmenow-trig'>Have a look</a>
-                        </div>
-                    </div>
-                </div>
+        <div id='footer'>
+            <div class='append-bottom'>
+                <ul>
+                    <li><a class='hypertext' href='http://caphrim.net/tim'>Personal website</a>
+                </ul>
             </div>
         </div>
-
-        <div class='span-23 prepend-top project'>
-            <h1 class='scanner-block-header'>nessquik</h1>
-            <div class='scanner-block-body span-23 last'>
-                <div class='span-23 prepend-top append-bottom'>
-                    <div class='span-5' style='text-align: center;'>
-                        <img class='nessquik-trig' src='portfolio/software/nessquik/images/nessquik_1285187441668.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-                    </div>
-                    <div class='span-18 last'>
-                        <div>
-                            <code>nessquik</code> is a front-end for the Nessus Vulnerability Scanner
-                        </div>
-                        <div class='prepend-top'>
-                            <span class='hypertext nessquik-trig'>Have a look</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>Solera DeepSee App for Splunk</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='deepsee-trig' src='portfolio/software/solera-splunk/images/splunkbase_plug.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>Solera DeepSee App for Splunk</code> was developed to integrate Solera's DeepSee appliance functionality in the Splunk UI.
-						</div>
-						<div class='prepend-top'>
-							<a class='hypertext deepsee-trig'>Have a look</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>Solera Greasemonkey Framework</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='greasemonkey-trig' src='portfolio/software/solera-gm/images/greasemonkey_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>Solera Greasemonkey Framework</code> is a Greasemonkey script that integrate Solera's DeepSee appliance functionality in any webpage of your choosing.
-						</div>
-						<div class='prepend-top'>
-							<a class='hypertext greasemonkey-trig'>Have a look</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>resolver</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='resolver-trig' src='portfolio/software/resolver/images/Screenshot.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>resolver</code> is a real-time netflow name resolver.
-						</div>
-						<div class='prepend-top'>
-							<a class='hypertext resolver-trig'>Check it out</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</li>
-  <li id="devopsTab">
-        <div class='span-23 project'>
-            <h1 class='scanner-block-header'>fsf</h1>
-            <div class='scanner-block-body span-23 last'>
-                <div class='span-23 prepend-top append-bottom'>
-                    <div class='span-5' style='text-align: center;'>
-                        <img class='splunk-trig' src='portfolio/devops/splunk/images/splunk_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-			</a>
-                    </div>
-                    <div class='span-18 last'>
-                        <div>
-                            <code>Splunk</code> is an IT search engine
-                        </div>
-                        <div class='prepend-top'>
-				<h5 style='border-bottom: 1px solid #ccc'>What I did</h5>
-				<ul>
-					<li>Complete design and implementation of Splunk search cluster. Search head, 10+ indexes, 25+ forwarders
-					<li>Development of custom Splunk Apps and Modules to support group (operations reports, ITIL, application monitoring, etc)
-					<li>Advanced knowledge of the Splunk search engine and best practices for searching
-					<li>Hundreds of millions of log entries a day; 200+ gigabytes
-					<li>Personally evaluated numerous SIM solutions to determine that a full-text search engine was the correct course of action. Saved millions of dollars in the process of choosing what was <u>needed</u> instead of what was the hot ticket item of the day.
-				</ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>puppet</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='puppet-trig' src='portfolio/devops/puppet/images/puppet_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>puppet</code> is IT automation software for system administrators
-						</div>
-						<div class='prepend-top'>
-				<h5 style='border-bottom: 1px solid #ccc'>What I did</h5>
-				<ul>
-					<li>Complete design and implementation of puppet infrastructure to manage 50+ machines and hundreds of pieces of software
-					<li>Development of custom puppet modules to manage in-house applications
-					<li>Had key insight into the need for this type of software to replace aging linux servers 2 years before they would be required to be replaced. Allowing for plenty of time to establish the infrastructure necessary to transition the systems in the future.
-					<li>Self-starter on the project. Required no guidance from management, relieving the burden on them.
-					<li>Saved countless man-hours and employee stress due to no longer having to be under-the-gun in transitioning close to 100 machines
-				</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>nagios</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='nagios-trig' src='portfolio/devops/nagios/images/nagios_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>nagios</code> is IT infrastructure monitoring software
-						</div>
-						<div class='prepend-top'>
-				<h5 style='border-bottom: 1px solid #ccc'>What I did</h5>
-				<ul>
-					<li>Complete design and implementation of nagios infrastructure to manage 145+ servers and network attached devices
-					<li>Development of custom nagios checks to monitor in-house applications
-					<li>Single-handedly took control of all system administration tasks for a group that managed almost 100 servers.
-					<li>Self-starter on the project. Required no guidance from management, relieving the burden on them.
-					<li>Proved to management that a single individual with the right tools is capable of managing a large number of systems. This saves the organization money in the form of head-count, as those resources can instead be focused on devlivering great products.
-				</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class='span-23 prepend-top project'>
-			<h1 class='scanner-block-header'>git</h1>
-			<div class='scanner-block-body span-23 last'>
-				<div class='span-23 prepend-top append-bottom'>
-					<div class='span-5' style='text-align: center;'>
-						<img class='git-trig' src='portfolio/devops/git/images/git_index.png' style='width: 100px; height: 75px; box-shadow: 3px 3px 4px #ccc;'>
-					</div>
-					<div class='span-18 last'>
-						<div>
-							<code>git</code> is a distributed version control system
-						</div>
-						<div class='prepend-top'>
-				<h5 style='border-bottom: 1px solid #ccc'>What I did</h5>
-				<ul>
-					<li>Complete design and implementation of git infrastructure to manage source code and configurations for 40+ software tools
-					<li>Development of software versioning best practices, and education of group members on how to use the tools for more efficient development workflow
-					<li>Single-handedly took control of all existing source code, and system configurations, and implemented git repositories for them. This included legacy code that needed to be transitioned from CVS systems
-					<li>Self-starter on the project. Required no guidance from management, relieving the burden on them.
-					<li>Proved to management the benefit of having version control systems, by showcasing the flexability of the system when quick fixes needed to be created, or when massive new developments needed to be switched out to address a bug in the current release.
-				</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</li>
-  <li id="infrastructureTab">This is simple tab 2s content. Now you see it!</li>
-</ul>
-
-
-	</div>
-</div>
-
-                </div>
-                <div id='footer'>
-                        <div class='append-bottom'>
-                                <ul>
-                                        <li><a class='hypertext' href='http://caphrim.net/tim'>Personal website</a>
-                                </ul>
-                        </div>
-                </div>
-        </body>
+    </body>
 </html>
 
 <div style='display: none;'>
 	<a class='savory-thumb fancybox.ajax' rel='savory-thumb' href='portfolio/software/savory/about.html'>about</a>
-	<!--#include file="portfolio/software/savory/savory_fresh_index.html"-->
+    <!--#include file="portfolio/software/savory/savory_fresh_index.html"-->
 	<!--#include file="portfolio/software/savory/savory_tools_index.html"-->
 	<!--#include file="portfolio/software/savory/savory_tags_table.html"-->
 	<!--#include file="portfolio/software/savory/savory_tags_table_search.html"-->
 	<!--#include file="portfolio/software/savory/savory_tags_cloud.html"-->
 	<!--#include file="portfolio/software/savory/savory_urls_index.html"-->
 	<!--#include file="portfolio/software/savory/savory_urls_index_search.html"-->
-    	<!--#include file="portfolio/software/savory/savory_urls_modify.html"-->
-    	<!--#include file="portfolio/software/savory/savory_urls_modify_context.html"-->
-    	<!--#include file="portfolio/software/savory/savory_urls_modify_screenshot.html"-->
-    	<!--#include file="portfolio/software/savory/savory_urls_modify_actions.html"-->
-    	<!--#include file="portfolio/software/savory/savory_settings_index.html"-->
-    	<!--#include file="portfolio/software/savory/savory_settings_password.html"-->
-    	<!--#include file="portfolio/software/savory/savory_settings_interface.html"-->
-    	<!--#include file="portfolio/software/savory/savory_admin_index.html"-->
+    <!--#include file="portfolio/software/savory/savory_urls_modify.html"-->
+	<!--#include file="portfolio/software/savory/savory_urls_modify_context.html"-->
+    <!--#include file="portfolio/software/savory/savory_urls_modify_screenshot.html"-->
+    <!--#include file="portfolio/software/savory/savory_urls_modify_actions.html"-->
+    <!--#include file="portfolio/software/savory/savory_settings_index.html"-->
+    <!--#include file="portfolio/software/savory/savory_settings_password.html"-->
+    <!--#include file="portfolio/software/savory/savory_settings_interface.html"-->
+    <!--#include file="portfolio/software/savory/savory_admin_index.html"-->
    	<!--#include file="portfolio/software/savory/savory_admin_accounts.html"-->
-    	<!--#include file="portfolio/software/savory/savory_accounts_create.html"-->
-    	<!--#include file="portfolio/software/savory/savory_admin_auth.html"-->
-    	<!--#include file="portfolio/software/savory/savory_auth_create.html"-->
-    	<!--#include file="portfolio/software/savory/savory_auth_create_ldap.html"-->
-    	<!--#include file="portfolio/software/savory/savory_auth_create_x509.html"-->
-    	<!--#include file="portfolio/software/savory/savory_admin_permissions.html"-->
-    	<!--#include file="portfolio/software/savory/savory_roles_create.html"-->
-    	<!--#include file="portfolio/software/savory/savory_admin_tags.html"-->
-    	<!--#include file="portfolio/software/savory/savory_tags_modify.html"-->
-	<a class='greasemonkey-thumb fancybox.ajax' rel='greasemonkey-thumb' href='portfolio/software/solera-gm/about.html'>about</a>
+    <!--#include file="portfolio/software/savory/savory_accounts_create.html"-->
+    <!--#include file="portfolio/software/savory/savory_admin_auth.html"-->
+    <!--#include file="portfolio/software/savory/savory_auth_create.html"-->
+    <!--#include file="portfolio/software/savory/savory_auth_create_ldap.html"-->
+    <!--#include file="portfolio/software/savory/savory_auth_create_x509.html"-->
+    <!--#include file="portfolio/software/savory/savory_admin_permissions.html"-->
+    <!--#include file="portfolio/software/savory/savory_roles_create.html"-->
+    <!--#include file="portfolio/software/savory/savory_admin_tags.html"-->
+    <!--#include file="portfolio/software/savory/savory_tags_modify.html"-->
+	
+    <a class='greasemonkey-thumb fancybox.ajax' rel='greasemonkey-thumb' href='portfolio/software/solera-gm/about.html'>about</a>
 	<!--#include file="portfolio/software/solera-gm/greasemonkey_index.html"-->
 	<!--#include file="portfolio/software/solera-gm/greasemonkey_timespan.html"-->
 	<!--#include file="portfolio/software/solera-gm/greasemonkey_source_address.html"-->
@@ -344,40 +117,49 @@
 	<!--#include file="portfolio/software/solera-gm/greasemonkey_destination_port_full.html"-->
 	<!--#include file="portfolio/software/solera-gm/greasemonkey_protocol.html"-->
 	<!--#include file="portfolio/software/solera-gm/greasemonkey_investigate.html"-->
-	<a class='deepsee-thumb fancybox.ajax' rel='deepsee-thumb' href='portfolio/software/solera-splunk/about.html'>about</a>
+	
+    <a class='deepsee-thumb fancybox.ajax' rel='deepsee-thumb' href='portfolio/software/solera-splunk/about.html'>about</a>
     <!--#include file="portfolio/software/solera-splunk/splunkbase_plug.html"-->
     <!--#include file="portfolio/software/solera-splunk/splunk_search.html"-->
     <!--#include file="portfolio/software/solera-splunk/splunk_investigate_index.html"-->
     <!--#include file="portfolio/software/solera-splunk/splunk_investigate_custom.html"-->
     <!--#include file="portfolio/software/solera-splunk/splunk_setup.html"-->
-	<a class='resolver-thumb fancybox.ajax' rel='resolver-thumb' href='portfolio/software/resolver/about.html'>about</a>
+	
+    <a class='resolver-thumb fancybox.ajax' rel='resolver-thumb' href='portfolio/software/resolver/about.html'>about</a>
 	<!--#include file="portfolio/software/resolver/resolver_index.html"-->
+    
     <a class='nessquik-thumb fancybox.ajax' rel='nessquik-thumb' href='portfolio/software/nessquik/about.html'>about</a>
     <!--#include file="portfolio/software/nessquik/nessquik_1285187441668.html"-->
     <!--#include file="portfolio/software/nessquik/nessquik_1285187494115.html"-->
     <!--#include file="portfolio/software/nessquik/nessquik_1285187873647.html"-->
     <!--#include file="portfolio/software/nessquik/nessquik_1285187947206.html"-->
     <!--#include file="portfolio/software/nessquik/nessquik_1285188016432.html"-->
+    
     <a class='fsf-thumb fancybox.ajax' rel='fsf-thumb' href='portfolio/software/fsf/about.html'>about</a>
     <!--#include file="portfolio/software/fsf/fsf_index.html"-->
     <!--#include file="portfolio/software/fsf/fsf_job.html"-->
     <!--#include file="portfolio/software/fsf/fsf_schedule.html"-->
     <!--#include file="portfolio/software/fsf/fsf_test.html"-->
+    
     <a class='portscanmenow-thumb fancybox.ajax' rel='portscanmenow-thumb' href='portfolio/software/portscanmenow/about.html'>about</a>
     <!--#include file="portfolio/software/portscanmenow/portscanmenow_index_full.html"-->
     <!--#include file="portfolio/software/portscanmenow/portscanmenow_choose_scanner.html"-->
     <!--#include file="portfolio/software/portscanmenow/portscanmenow_html_output.html"-->
     <!--#include file="portfolio/software/portscanmenow/portscanmenow_xml_output.html"-->
-    <div class='splunk-thumb'>
-	<img src='portfolio/devops/splunk/images/splunk_index.png'>
+    
+    <div id='splunk-index-thumb'>
+    	<img src='portfolio/devops/splunk/images/splunk_index.png'>
     </div>
-    <div class='puppet-thumb'>
-	<img src='portfolio/devops/puppet/images/puppet_index.png'>
+    <div id='puppet-index-thumb'>
+    	<img src='portfolio/devops/puppet/images/puppet_index.png'>
     </div>
-    <div class='nagios-thumb'>
-	<img src='portfolio/devops/nagios/images/nagios_index.png'>
+    <div id='nagios-index-thumb'>
+    	<img src='portfolio/devops/nagios/images/nagios_index.png'>
     </div>
-    <div class='git-thumb'>
-	<img src='portfolio/devops/git/images/git_index.png'>
+    <div id='git-index-thumb'>
+	    <img src='portfolio/devops/git/images/git_index.png'>
+    </div>
+    <div id='openstack-index-thumb'>
+	    <img src='portfolio/infrastructure/openstack/images/openstack_index.png'>
     </div>
 </div>
